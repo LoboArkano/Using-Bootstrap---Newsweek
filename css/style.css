@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+main.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .container-fluid {
   max-width: 1310px;
 }
@@ -31,3 +36,37 @@
 .col3 {
   width: 29%;
 }
+
+.mag-h {
+  height: 290px;
+}
+
+.magazine-img1 {
+  background: url("https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1") center center;
+}
+
+.magazine-img2 {
+  background: url("https://d.newsweek.com/en/full/1571763/crazy-market-01.jpg?w=466&h=311&l=52&t=47&q=90&f=ff7ff0353122be47b92e55b8dcde85ca") center center;
+}
+
+.magazine-img3 {
+  background: url("https://d.newsweek.com/en/full/1572578/per-hollywood-banner.jpg?w=466&h=311&l=50&t=47&q=90&f=2d0e511382ca9561a78fc95ca14e044e") center center;
+}
+
+.magazine-img4 {
+  background: url("https://d.newsweek.com/en/full/1573187/hor-btn-pandemics-01.jpg?w=466&h=311&q=90&f=6b3df08452d42adbcafe3238dd679c30") center center;
+}
+
+.magazine-img5 {
+  background: url("https://d.newsweek.com/en/full/1572525/cul-uncharted-stadiums-banner.jpg?w=466&h=311&q=90&f=a57d51bbafc7d141842f113cedb6dea1") center center;
+}
+
+.magazine-img6 {
+  background: url("https://d.newsweek.com/en/full/1572537/cul-ps-elainewelteroth.jpg?w=466&h=311&q=90&f=d0be6c4a2061644d054dda643a3ce72b") center center;
+}
+
+.magazine-focus {
+  background: url("https://d.newsweek.com/en/full/1572546/aftermath.jpg?w=480&h=320&q=90&f=33d6a4844efac639705674e960d90ba9") center center;
+  height: 319px;
+}
+
