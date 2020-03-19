@@ -1,0 +1,33 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.col0,
+.col1,
+.col2,
+.col3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col0 {
+  width: 71%;
+}
+
+.col1 {
+  width: 41%;
+}
+
+.col2 {
+  width: 59%;
+}
+
+.col3 {
+  width: 29%;
+}
