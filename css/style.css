@@ -70,3 +70,27 @@ main.container-fluid {
   height: 319px;
 }
 
+.sub-magazine {
+  position: relative;
+}
+
+.sub-mag-abs {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 5;
+}
+
+.sub-mag-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center top no-repeat;
+  background-size: 200% 100%;
+}
+
+.newsletter .col-7 {
+  max-width: 190px;
+  padding: 0;
+}
+
+.img-h-300 {
+  height: 300px;
+}
