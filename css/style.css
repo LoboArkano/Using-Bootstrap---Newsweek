@@ -1,16 +1,94 @@
+/* GENERAL */
+
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-main.container-fluid {
-  padding-left: 30px;
-  padding-right: 30px;
+body {
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container-fluid {
   max-width: 1310px;
+}
+
+/* HEADER */
+
+.container-fluid .header-container {
+  background-color: #f72210;
+  color: white;
+  padding: 20px 10px 15px;
+}
+
+.header-container .weather-icon {
+  align-self: flex-end;
+  height: 34px;
+  width: 34px;
+}
+
+.header-container .temperature,
+.header-container .city-info {
+  margin-bottom: 0;
+  padding-left: 8px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.header-container .city-info {
+  padding-right: 5px;
+}
+
+.header-container .r-arrow-weather {
+  height: 11px;
+  width: 6px;
+}
+
+.date {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.header-container .logo {
+  filter: invert(100%);
+}
+
+.header-container .col-4:last-child {
+  padding-right: 0;
+}
+
+.header-container .sign-in {
+  font-size: 18px;
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-container .sign-in:hover {
+  cursor: pointer;
+}
+
+.header-container .sub-header-b {
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: white;
+  color: #f72210;
+  padding-left: 12px;
+  padding-right: 13px;
+}
+
+.sub-header-b .r-arrow-sub-b {
+  height: 14px;
+  padding-left: 16px;
+  filter: brightness(0) saturate(100%) invert(24%) sepia(99%) saturate(6036%) hue-rotate(357deg) brightness(101%) contrast(94%);
+}
+
+main.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .col0,

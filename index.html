@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Newsweek</title>
@@ -12,23 +13,28 @@
   <body>
     <!-- HEADER -->
     <header class="container-fluid">
-      <div class="row">
+      <div class="header-container row">
         <div class="col-4">
           <div class="row">
-            <div class="col-12 bg-success">
-              <!-- <img src="https://g.newsweek.com/img/weather/30.png" alt=""> -->
-              <p>27°Guadalajara, MX</p>
+            <div class="d-flex align-items-center col-12">
+              <img class="weather-icon" src="https://g.newsweek.com/img/weather/30.png" alt="">
+              <p class="temperature">27°</p>
+              <p class="city-info">Guadalajara, MX</p>
+              <img class="r-arrow-weather" src="images/right-arrow.svg" alt="">
             </div>
-            <div class="col-12 bg-secondary">
-              <p>Wed, Mar 18, 2020</p>
+            <div class="col-12">
+              <p class="date">Wed, Mar 18, 2020</p>
             </div>
           </div>
         </div>
         <div class="col-4">
-          <h1>NEWSWEEK</h1>
+          <img class="logo" src="images/logo.svg" alt="logo">
         </div>
-        <div class="col-4">
-          <a>SIGN IN <button>SUBSCRIBE</button></a>
+        <div class="d-flex justify-content-end align-items-end col-4">
+          <div class="d-flex align-items-center">
+            <a class="sign-in">SIGN IN</a>
+            <button class="d-flex align-items-center sub-header-b">SUBSCRIBE <img class="r-arrow-sub-b" src="images/right-arrow.svg" alt=""></button>
+        </div>
         </div>
       </div>
       <!-- NAVBAR -->
@@ -778,6 +784,7 @@
           </div>
         </div>
       </section>
+      <!-- FOOTER -->
       <footer>
         <div class="d-flex justify-content-between">
           <div>NEWSWEEK © 2020 Newsweek</div>
