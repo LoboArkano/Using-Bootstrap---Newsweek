@@ -662,13 +662,25 @@ main.container-fluid {
   text-decoration: none;
 }
 
+/* SUBSCRIBE */
 
+.sub-red-title {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: #f72210;
+}
 
-
-
-
+.sub-container {
+  padding: 30px 30px 44px 30px;
+  margin-left: 0;
+  margin-right: 15px;
+  background-color: #f4f5f6;
+}
 
 .sub-magazine {
+  padding-left: 0;
   position: relative;
 }
 
@@ -682,6 +694,47 @@ main.container-fluid {
 .sub-mag-img {
   background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center top no-repeat;
   background-size: 200% 100%;
+}
+
+.sub-title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sub-sub-title {
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: lighter;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sub-b,
+.sub-b2 {
+  padding: 10px 10px 10px 12px;
+  background-color: #f72210;
+  color: white;
+  max-width: 130px;
+}
+
+.sub-b-text {
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.sub-b-arrow {
+  height: 16px;
+  width: 10px;
+  margin-left: 10px;
+}
+
+.sub-b2 {
+  max-width: 108px;
 }
 
 .newsletter .col-7 {
