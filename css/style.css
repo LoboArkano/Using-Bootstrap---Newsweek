@@ -397,7 +397,7 @@ main.container-fluid {
 
 .add-title:hover {
   color: black;
-  text-decoration: 1px solid #f72210;
+  text-decoration: 1px underline #f72210;
 }
 
 .add-desc {
@@ -535,7 +535,7 @@ main.container-fluid {
 
 .itm-title:hover {
   color: black;
-  text-decoration: 1px solid #f72210;
+  text-decoration: 1px underline #f72210;
 }
 
 .mt {
@@ -594,7 +594,7 @@ main.container-fluid {
 
 .ep-title:hover {
   color: black;
-  text-decoration: 1px solid #f72210;
+  text-decoration: 1px underline #f72210;
 }
 
 .ep-desc {
@@ -604,6 +604,69 @@ main.container-fluid {
   font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 0;
 }
+
+/* FEATURED SLIDESHOWS */
+
+.fs-article {
+  padding-bottom: 40px;
+}
+
+.fs-title-cont {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.fs-title {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fs-title:hover {
+  color: black;
+  text-decoration: 1px underline #f72210;
+}
+
+.category-bar {
+  padding-top: 25px;
+  padding-bottom: 11px;
+  font-size: 22px;
+  line-height: 22px;
+  color: #f72210;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-top: 1px solid #d9d9d9;
+}
+
+.fs-aside {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.fs-aside:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.fs-aside-title {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.fs-aside-title:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+
+
+
+
+
 
 .sub-magazine {
   position: relative;
