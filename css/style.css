@@ -367,6 +367,36 @@ main.container-fluid {
   text-decoration: none;
 }
 
+/* ADD ARTICLE */
+
+.add-article {
+  margin-bottom: 25px;
+}
+
+.add-box {
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+}
+
+.add-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.add-title:hover {
+  color: black;
+  text-decoration: 1px solid #f72210;
+}
+
+.add-desc {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .mag-h {
   height: 290px;
 }
