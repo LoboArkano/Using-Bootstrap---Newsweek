@@ -575,6 +575,36 @@ main.container-fluid {
   height: 319px;
 }
 
+/* EDITOR'S PICKS */
+
+.ep-article {
+  margin-bottom: 20px;
+}
+
+.ep-title-cont {
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.ep-title {
+  font-size: 24px;
+  line-height: 24px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ep-title:hover {
+  color: black;
+  text-decoration: 1px solid #f72210;
+}
+
+.ep-desc {
+  font-size: 15px;
+  line-height: 20px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 0;
+}
+
 .sub-magazine {
   position: relative;
 }
