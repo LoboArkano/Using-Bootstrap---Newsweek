@@ -203,6 +203,26 @@ main.container-fluid {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Culture & Travel */
+
+.ct-title {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lora', Arial, Helvetica, sans-serif;
+}
+
+.ct-title:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.ct-desc {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(39, 39, 39, 0.5);
+  font-family: Helvetica, Arial, sans-serif;
+}
+
 .mag-h {
   height: 290px;
 }
