@@ -256,6 +256,10 @@ main.container-fluid {
 
 /* OPINION */
 
+.opinion {
+  margin-bottom: 15px;
+}
+
 .opinion-title {
   font-size: 17px;
   line-height: 21px;
@@ -273,6 +277,67 @@ main.container-fluid {
   line-height: 21px;
   font-family: 'Roboto Condensed', sans-serif;
   color: #212529;
+}
+
+/* THE DEBATE */
+
+.debate {
+  margin-bottom: 25px;
+}
+
+.debate-border-t1 {
+  border-top: 4px solid #f72210;
+}
+
+.debate-border-t2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.title-box {
+  padding-top: 14px;
+  padding-left: 0;
+}
+
+.debate-title {
+  font-size: 17px;
+  line-height: 21px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.border-author {
+  height: 4px;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.author-info {
+  font-size: 17px;
+  line-height: 21px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.gray-author {
+  color: #555;
+  font-weight: lighter;
+}
+
+.debate-author {
+  margin-bottom: 0;
+  font-weight: bolder;
+}
+
+.debate-versus {
+  height: 40px;
+  width: 40px;
+  margin: 14px auto 18px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .mag-h {
