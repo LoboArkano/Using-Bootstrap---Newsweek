@@ -153,6 +153,10 @@ main.container-fluid {
   padding-right: 30px;
 }
 
+.container-fluid .main-section {
+  margin-bottom: 25px;
+}
+
 /* MAIN SECTION */
 
 .col0,
@@ -457,6 +461,85 @@ main.container-fluid {
 .su-update:hover {
   color: #333;
   text-decoration: none;
+}
+
+/* IN THE MAGAZINE */
+
+.section-bar {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 15px;
+}
+
+.section-text {
+  font-size: 19px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+  margin-bottom: 0;
+}
+
+.itm > .row {
+  margin-bottom: 25px;
+}
+
+.features-b {
+  font-size: 18px;
+  font-weight: bolder;
+  padding: 10px 10px 10px 12px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #f4f5f6;
+}
+
+.features-b:hover {
+  background-color: #dbdcdd;
+}
+
+.features-b-img {
+  height: 16px;
+  width: 10px;
+  margin-left: 10px;
+  filter: invert(100%);
+}
+
+.new-classification {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.type-red-box,
+.type-white-box {
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.type-red-box {
+  margin-right: 7px;
+  background-color: #f72210;
+  color: white;
+}
+
+.type-white-box {
+  color: #f72210;
+  background-color: white;
+}
+
+.itm-title {
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.itm-title:hover {
+  color: black;
+  text-decoration: 1px solid #f72210;
+}
+
+.mt {
+  margin-top: 10px;
 }
 
 .mag-h {
