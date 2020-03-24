@@ -7,7 +7,13 @@
 }
 
 body {
+  background-color: #f4f5f6;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav,
+main {
+  background-color: white;
 }
 
 a {
@@ -65,16 +71,22 @@ a {
 }
 
 .header-container .logo {
+  height: 60px;
+  width: 396px;
   filter: invert(100%);
 }
 
-.header-container .col-4:last-child {
+.header-container .h-cont-3 {
   padding-right: 0;
 }
 
-.header-container .sign-in {
+.header-container .sign-in,
+.header-container .sub-header-b {
   font-size: 18px;
   font-weight: bolder;
+}
+
+.header-container .sign-in {
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -84,8 +96,6 @@ a {
 }
 
 .header-container .sub-header-b {
-  font-size: 18px;
-  font-weight: bolder;
   background-color: white;
   color: #f72210;
   padding-left: 12px;
@@ -98,7 +108,101 @@ a {
   filter: brightness(0) saturate(100%) invert(24%) sepia(99%) saturate(6036%) hue-rotate(357deg) brightness(101%) contrast(94%);
 }
 
+.fa-bars {
+  height: 26px;
+  width: 50px;
+  font-size: 27px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 400px) {
+  .h-cont-1 {
+    max-width: 0.1%;
+  }
+
+  .header-container .col-3.h-cont-2 {
+    max-width: 40% !important;
+  }
+
+  .h-cont-3 {
+    width: 69%;
+  }
+
+  .hidden-weather {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .header-container .sign-in,
+  .header-container .sub-header-b {
+    font-size: 14px;
+  }
+
+  .hidden-arrow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hidden-city-info {
+    display: none;
+  }
+
+  .header-container .logo {
+    height: 20px;
+    width: 131px;
+    padding-left: 35px;
+    padding-right: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 991px) {
+  .h-cont-1 {
+    max-width: 40%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container-fluid .header-container {
+    padding: 15px;
+    align-items: center;
+  }
+
+  .location {
+    padding-right: 0;
+  }
+
+  .header-container .weather-icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .h-cont-2 {
+    order: -1;
+    padding-left: 0;
+  }
+
+  .header-container .logo {
+    height: 25px;
+    width: 131px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  .h-cont-3 {
+    padding-left: 0;
+  }
+}
+
 /* NAVBAR */
+
+div.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
 
 .container-fluid .navbar {
   padding-top: 0;

@@ -14,72 +14,75 @@
     <!-- HEADER -->
     <header class="container-fluid">
       <div class="header-container row">
-        <div class="col-4">
+        <div class="col-2 col-sm-4 col-lg-3 h-cont-1 hidden-weather">
           <div class="row">
-            <div class="d-flex align-items-center col-12">
-              <img class="weather-icon" src="https://g.newsweek.com/img/weather/30.png" alt="">
-              <p class="temperature">27°</p>
-              <p class="city-info">Guadalajara, MX</p>
-              <img class="r-arrow-weather" src="images/right-arrow.svg" alt="">
+            <div class="d-flex align-items-center col-lg-12 location">
+              <img class="weather-icon hidden-weather" src="https://g.newsweek.com/img/weather/30.png" alt="">
+              <p class="temperature hidden-weather">27°</p>
+              <p class="city-info hidden-city-info">Guadalajara, MX</p>
+              <img class="r-arrow-weather hidden-city-info" src="images/right-arrow.svg" alt="">
             </div>
-            <div class="col-12">
+            <div class="col-lg-12 d-none d-lg-block">
               <p class="date">Wed, Mar 18, 2020</p>
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-3 col-sm-2 col-lg-6 d-flex justify-content-center h-cont-2">
           <img class="logo" src="images/logo.svg" alt="logo">
         </div>
-        <div class="d-flex justify-content-end align-items-end col-4">
+        <div class="col-7 col-sm-6 col-lg-3 d-flex justify-content-end align-items-end h-cont-3">
           <div class="d-flex align-items-center">
             <a class="sign-in">SIGN IN</a>
-            <button class="d-flex align-items-center sub-header-b">SUBSCRIBE <img class="r-arrow-sub-b" src="images/right-arrow.svg" alt=""></button>
+            <button class="d-flex align-items-center sub-header-b">SUBSCRIBE <img class="r-arrow-sub-b hidden-arrow" src="images/right-arrow.svg" alt=""></button>
+            <i class="fas fa-bars d-lg-none"></i>
         </div>
         </div>
       </div>
-      <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-xl justify-content-start">
-        <ul class="navbar-nav flex-row justify-content-between align-items-center w-100">
-          <li class="nav-item">
-            <a class="nav-link" href="#">U.S.</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">World</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Business</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Tech & Science</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Culture</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Newsgeek</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sports</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Health</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">The Debate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Vantage</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Weather</a>
-          </li>
-          <form class="nav-form" action="">
-            <input class="nav-input" type="text" placeholder="Search">
-            <a href="#"><img class="nav-search" src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt=""></a>
-          </form>
-        </ul>
-      </nav>
     </header>
+    <!-- NAVBAR -->
+    <div class="container-fluid">
+    <nav class="navbar navbar-expand-xl justify-content-start">
+      <ul class="navbar-nav flex-row justify-content-between align-items-center w-100">
+        <li class="nav-item">
+          <a class="nav-link" href="#">U.S.</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">World</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Business</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tech & Science</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Culture</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Newsgeek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sports</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Health</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">The Debate</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Vantage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Weather</a>
+        </li>
+        <form class="nav-form" action="">
+          <input class="nav-input" type="text" placeholder="Search">
+          <a href="#"><img class="nav-search" src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt=""></a>
+        </form>
+      </ul>
+    </nav>
+    </div>
     <!-- MAIN -->
     <main class="container-fluid">
       <div class="main-section row">
