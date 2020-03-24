@@ -514,6 +514,17 @@ main.container-fluid {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+@media only screen and (max-width: 991px) {
+  .portrait2 {
+    max-width: 100px;
+  }
+
+  .opinion-info {
+    flex-grow: 1;
+    padding-right: 0;
+  }
+}
+
 /* LATEST NEWS */
 
 .ln {
