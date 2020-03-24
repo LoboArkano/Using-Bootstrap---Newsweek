@@ -297,11 +297,11 @@ main.container-fluid {
   }
 
   .col1 {
-    width: 50%;
+    width: 45%;
   }
 
   .col2 {
-    width: 50%;
+    width: 55%;
   }
 
   .col3 {
@@ -325,6 +325,10 @@ main.container-fluid {
 }
 
 /* FEATURED STORIES */
+
+.f-img-cont {
+  width: 100%;
+}
 
 .img-new {
   margin-bottom: 9px;
