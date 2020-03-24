@@ -287,6 +287,43 @@ main.container-fluid {
   width: 29%;
 }
 
+@media only screen and (max-width: 991px) {
+  .main-section {
+    margin-top: 20px;
+  }
+
+  .col0 {
+    width: 100%;
+  }
+
+  .col1 {
+    width: 50%;
+  }
+
+  .col2 {
+    width: 50%;
+  }
+
+  .col3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col0 {
+    display: flex;
+  }
+
+  .col1 {
+    width: 100%;
+  }
+
+  .col2 {
+    order: -1;
+    width: 100%;
+  }
+}
+
 /* FEATURED STORIES */
 
 .img-new {
