@@ -261,6 +261,13 @@ main.container-fluid {
   margin-bottom: 25px;
 }
 
+@media only screen and (max-width: 991px) {
+  main.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 /* MAIN SECTION */
 
 .col0,
@@ -433,6 +440,17 @@ main.container-fluid {
   line-height: 21px;
   font-family: 'Roboto Condensed', sans-serif;
   color: #212529;
+}
+
+@media only screen and (max-width: 991px) {
+  .portrait {
+    max-width: 70px;
+  }
+
+  .opinion-info {
+    flex-grow: 1;
+    padding-right: 0;
+  }
 }
 
 /* THE DEBATE */
