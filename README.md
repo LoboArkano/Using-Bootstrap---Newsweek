@@ -3,7 +3,6 @@ The objective of our project was to recreate a responsive layout with custom med
 
 ![image](https://user-images.githubusercontent.com/33432289/77593185-67efdf00-6eb9-11ea-9989-9174eef68145.png)
 
-We use the mobil first approach to create the clone of TNW page.
 
 ## Live Demo
 
