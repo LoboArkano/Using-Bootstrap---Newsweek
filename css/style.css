@@ -115,6 +115,76 @@ a {
   padding-left: 20px;
 }
 
+@media only screen and (max-width: 991px) {
+  header.container-fluid {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .container-fluid .header-container {
+    padding: 15px;
+    align-items: center;
+  }
+
+  .h-cont-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .location {
+    padding-right: 0;
+  }
+
+  .header-container .weather-icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .h-cont-2 {
+    order: -1;
+    padding-left: 5px;
+    min-width: 169px !important;
+  }
+
+  .header-container .logo {
+    height: 20px;
+    width: 151px;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .h-cont-3 {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hidden-city-info {
+    display: none;
+  }
+  
+  .location {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header-container .sign-in,
+  .header-container .sub-header-b {
+    font-size: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .hidden-arrow {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .h-cont-1 {
     max-width: 0.1%;
@@ -130,68 +200,6 @@ a {
 
   .hidden-weather {
     display: none !important;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .header-container .sign-in,
-  .header-container .sub-header-b {
-    font-size: 14px;
-  }
-
-  .hidden-arrow {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 640px) {
-  .hidden-city-info {
-    display: none;
-  }
-
-  .header-container .logo {
-    height: 20px;
-    width: 131px;
-    padding-left: 35px;
-    padding-right: 30px;
-  }
-}
-
-@media only screen and (max-width: 991px) {
-  .h-cont-1 {
-    max-width: 40%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .container-fluid .header-container {
-    padding: 15px;
-    align-items: center;
-  }
-
-  .location {
-    padding-right: 0;
-  }
-
-  .header-container .weather-icon {
-    height: 24px;
-    width: 24px;
-  }
-
-  .h-cont-2 {
-    order: -1;
-    padding-left: 0;
-  }
-
-  .header-container .logo {
-    height: 25px;
-    width: 131px;
-    padding-left: 10px;
-    padding-right: 20px;
-  }
-
-  .h-cont-3 {
-    padding-left: 0;
   }
 }
 
@@ -260,6 +268,7 @@ main.container-fluid {
   main.container-fluid {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 57px;
   }
 }
 
