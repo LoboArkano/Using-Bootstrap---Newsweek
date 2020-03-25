@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
-    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Roboto+Condensed:400,700,700i&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700i&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <title>Newsweek</title>
@@ -41,7 +42,7 @@
     </header>
     <!-- NAVBAR -->
     <div class="container-fluid d-none d-lg-block">
-    <nav class="navbar navbar-expand-xl justify-content-start">
+    <nav class="navbar navbar-expand-lg justify-content-start">
       <ul class="navbar-nav flex-row justify-content-between align-items-center w-100">
         <li class="nav-item">
           <a class="nav-link" href="#">U.S.</a>
@@ -76,12 +77,12 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Weather</a>
         </li>
-        <form class="nav-form" action="">
-          <input class="nav-input" type="text" placeholder="Search">
-          <a href="#"><img class="nav-search" src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt=""></a>
-          <div class="red-tr"></div>
-        </form>
       </ul>
+      <form class="d-flex align-items-center nav-form" action="action.php">
+        <input class="nav-input" type="text" placeholder="Search">
+        <a href="#"><img class="nav-search" src="https://g.newsweek.com/www/images/icon-search-glass.svg" alt=""></a>
+        <div class="red-tr"></div>
+      </form>
     </nav>
     </div>
     <!-- MAIN -->
@@ -404,6 +405,7 @@
           <article class="article-main d-md-none">
             <div class="main-img-cont">
               <img class="img-fluid img-new w-100" src="https://d.newsweek.com/en/full/1567280/all-points-north-lodge.jpg?w=500&h=333&f=317680b645c813e7054428bff80f9d38" alt="">
+            </div>
             <h5><a class="title-new" href="#">Who Leads the Field in Dependency Treatment in 2020?</a></h5>
             <p class="desc-new">When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
           </article>
@@ -913,7 +915,7 @@
                 <img src="https://d.newsweek.com/en/full/1574758/iranian-couple.jpg?w=95&h=95&f=35dbce2b24024e9f67bbd8d0291edaf1" alt="" class="img-fluid">
               </div>
               <div class="col-8 col-md-9">
-                <h5><a class="fs-aside-title" href=#"">103-Year-Old Woman Survives Coronavirus</a></h5>
+                <h5><a class="fs-aside-title" href="#">103-Year-Old Woman Survives Coronavirus</a></h5>
               </div>
             </div>
           </div>
@@ -1124,7 +1126,6 @@
                   <div class="sub-b-text">SING UP</div>
                   <img class="sub-b-arrow" src="images/right-arrow.svg" alt="">
                 </div>
-              </div>
               </div>
             </div>
           </div>

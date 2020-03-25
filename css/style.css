@@ -269,6 +269,10 @@ div.container-fluid {
   padding-right: 0;
 }
 
+.navbar-nav {
+  max-width: 1145px;
+}
+
 .navbar-nav .nav-item {
   flex-grow: 1;
   text-align: center;
@@ -284,11 +288,17 @@ div.container-fluid {
   font-weight: bolder;
   border-right: 1px solid #d9d9d9;
   color: black;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .nav-item:nth-child(11) .nav-link {
   border: 0;
+}
+
+.navbar .nav-form {
+  position: relative;
+  width: 193px;
+  overflow: hidden;
 }
 
 .navbar .nav-input {
@@ -297,27 +307,21 @@ div.container-fluid {
   border: 0;
 }
 
-.navbar-nav .nav-form {
-  position: relative;
-  width: 150px;
-  overflow: hidden;
+.nav-form .nav-search {
+  height: 20px;
+  width: 20px;
 }
 
 .red-tr {
   position: absolute;
   top: 0;
-  right: 0;
-  width: 80px;
+  right: 5px;
+  width: 100px;
   height: 13px;
   margin: 0 -20px 0 0;
   transform: skew(40deg);
   background: #f72210;
   overflow: hidden;
-}
-
-.nav-form .nav-search {
-  height: 20px;
-  width: 20px;
 }
 
 /* MAIN */
@@ -643,6 +647,7 @@ main.container-fluid {
 .add-title {
   font-size: 24px;
   line-height: 24px;
+  font-weight: bolder;
 }
 
 .add-title:hover {
