@@ -32,6 +32,60 @@ a {
   margin-right: 10px;
 }
 
+.main-img-cont,
+.sponsored-tag {
+  position: relative;
+  width: 100%;
+}
+
+.white-tag,
+.sponsored-tag,
+.red-tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  padding: 8px 15px 9px;
+  font-size: 17px;
+  font-weight: bolder;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.white-tag {
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.sponsored-tag {
+  color: #3581f4;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.red-tag {
+  padding: 0 7px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #f72210;
+}
+
+.number-tag {
+  position: absolute;
+  left: -1;
+  bottom: 0;
+  height: 52px;
+  width: 70px;
+  z-index: 3;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 100% 100% no-repeat;
+  background-size: 99% 109%;
+  padding: 3px 0 0 11px;
+  color: #f72210;
+  font-size: 20px;
+  line-height: 52px;
+  font-weight: bolder;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* HEADER */
 
 .container-fluid .header-container {
@@ -245,7 +299,21 @@ div.container-fluid {
 }
 
 .navbar-nav .nav-form {
+  position: relative;
   width: 150px;
+  overflow: hidden;
+}
+
+.red-tr {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 13px;
+  margin: 0 -20px 0 0;
+  transform: skew(40deg);
+  background: #f72210;
+  overflow: hidden;
 }
 
 .nav-form .nav-search {
@@ -341,10 +409,6 @@ main.container-fluid {
 }
 
 /* FEATURED STORIES */
-
-.main-img-cont {
-  width: 100%;
-}
 
 .img-new {
   margin-bottom: 9px;
@@ -775,6 +839,7 @@ main.container-fluid {
 }
 
 .magazine-focus {
+  position: relative;
   background: url("https://d.newsweek.com/en/full/1572546/aftermath.jpg?w=480&h=320&q=90&f=33d6a4844efac639705674e960d90ba9") center center no-repeat;
   background-size: 165% 100%;
   height: 319px;
