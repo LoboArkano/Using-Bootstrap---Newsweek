@@ -166,7 +166,7 @@ a {
   .hidden-city-info {
     display: none;
   }
-  
+
   .location {
     padding-left: 0;
   }
@@ -333,6 +333,11 @@ main.container-fluid {
     order: -1;
     width: 100%;
   }
+
+  .col2,
+  .col1 {
+    margin-bottom: 45px;
+  }
 }
 
 /* FEATURED STORIES */
@@ -457,6 +462,12 @@ main.container-fluid {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .opinion {
+    margin-bottom: 45px;
+  }
+}
+
 /* THE DEBATE */
 
 .debate {
@@ -526,6 +537,12 @@ main.container-fluid {
   .opinion-info {
     flex-grow: 1;
     padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .debate {
+    margin-bottom: 45px;
   }
 }
 
