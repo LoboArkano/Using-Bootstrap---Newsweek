@@ -84,6 +84,24 @@ a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.ct-tag {
+  position: absolute;
+  left: 0;
+  bottom: 9px;
+  z-index: 3;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  background-color: #c2d4d7;
+  color: #272727;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.ct-tag:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
 /* HEADER */
 
 .container-fluid .header-container {
@@ -443,6 +461,10 @@ main.container-fluid {
 
 /* Culture & Travel */
 
+.ct-img-cont {
+  position: relative;
+}
+
 .ct-title {
   font-size: 20px;
   line-height: 22px;
@@ -459,6 +481,12 @@ main.container-fluid {
   line-height: 20px;
   color: rgba(39, 39, 39, 0.5);
   font-family: Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .ct-cont {
+    margin-bottom: 25px;
+  }
 }
 
 /* MORE STORIES */
@@ -494,6 +522,12 @@ main.container-fluid {
   line-height: 20px;
   color: #333;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .ms-cont {
+    margin-bottom: 25px;
+  }
 }
 
 /* OPINION */
