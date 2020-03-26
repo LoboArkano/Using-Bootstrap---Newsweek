@@ -95,8 +95,8 @@ a {
 
 .header-container .weather-icon {
   align-self: flex-end;
-  height: 34px;
-  width: 34px;
+  height: 24px;
+  width: 24px;
 }
 
 .header-container .temperature,
@@ -264,9 +264,8 @@ div.container-fluid {
 }
 
 .container-fluid .navbar {
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
+  padding: 0;
+  border-bottom: 1px solid #f4f5f6;
 }
 
 .navbar-nav {
@@ -329,6 +328,7 @@ div.container-fluid {
 main.container-fluid {
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 22px;
 }
 
 .container-fluid .main-section {
