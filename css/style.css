@@ -509,10 +509,16 @@ main.container-fluid {
   text-decoration: none;
 }
 
+.opinion-border {
+  border-bottom: 1px solid #f4f5f6;
+  margin-bottom: 8px;
+}
+
 .author {
   font-size: 14px;
   line-height: 21px;
   color: #212529;
+  margin-bottom: 8px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -540,7 +546,7 @@ main.container-fluid {
 
 .debate-border-t1,
 .debate-border-t2 {
-margin-left: 0;
+  margin-left: 0;
 }
 
 .debate-border-t1 {
@@ -626,6 +632,10 @@ margin-left: 0;
 .ln .ln-new {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.ln-border {
+  border-bottom: 1px solid #f4f5f6;
 }
 
 .ln .ln-new:nth-child(2) {
