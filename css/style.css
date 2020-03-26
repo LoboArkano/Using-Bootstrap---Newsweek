@@ -943,6 +943,11 @@ main.container-fluid {
   margin-bottom: 25px;
 }
 
+.fs-aside-img {
+  max-width: 95px;
+  padding-right: 15px;
+}
+
 .fs-title {
   font-size: 22px;
   line-height: 22px;
