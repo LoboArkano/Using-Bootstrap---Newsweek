@@ -32,8 +32,7 @@ a {
   margin-right: 10px;
 }
 
-.main-img-cont,
-.sponsored-tag {
+.main-img-cont {
   position: relative;
   width: 100%;
 }
@@ -645,6 +644,11 @@ main.container-fluid {
 
 .ln-border {
   border-bottom: 1px solid #f4f5f6;
+}
+
+.ln-img {
+  min-width: 95px;
+  margin-right: 17px;
 }
 
 .ln-title {
