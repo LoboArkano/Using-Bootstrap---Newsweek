@@ -470,6 +470,11 @@ main.container-fluid {
   padding-right: 14px;
 }
 
+.ms-img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
 .ms-text {
   padding-left: 0;
 }
@@ -634,12 +639,12 @@ main.container-fluid {
   padding-bottom: 10px;
 }
 
-.ln-border {
-  border-bottom: 1px solid #f4f5f6;
-}
-
 .ln .ln-new:nth-child(2) {
   padding-top: 0;
+}
+
+.ln-border {
+  border-bottom: 1px solid #f4f5f6;
 }
 
 .ln-title {
