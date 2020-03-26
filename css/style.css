@@ -21,6 +21,18 @@ a {
   color: black;
 }
 
+.bolder {
+  font-weight: bolder;
+}
+
+.red-nw {
+  color: #f72210;
+}
+
+.red-bg-nw {
+  background-color: #f72210;
+}
+
 .container-fluid {
   max-width: 1310px;
 }
@@ -28,7 +40,6 @@ a {
 .n-box {
   height: 28px;
   width: 29px;
-  background-color: #f72210;
   margin-right: 10px;
 }
 
@@ -46,11 +57,9 @@ a {
   z-index: 3;
   padding: 8px 15px 9px;
   font-size: 17px;
-  font-weight: bolder;
 }
 
 .white-tag {
-  color: #f72210;
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -63,7 +72,6 @@ a {
   padding: 0 7px;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.9);
-  background-color: #f72210;
 }
 
 .number-tag {
@@ -76,10 +84,8 @@ a {
   background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 100% 100% no-repeat;
   background-size: 99% 109%;
   padding: 3px 0 0 11px;
-  color: #f72210;
   font-size: 20px;
   line-height: 52px;
-  font-weight: bolder;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -105,7 +111,6 @@ a {
 /* HEADER */
 
 .container-fluid .header-container {
-  background-color: #f72210;
   color: white;
   padding: 20px 10px 15px;
 }
@@ -121,7 +126,6 @@ a {
   margin-bottom: 0;
   padding-left: 8px;
   font-size: 15px;
-  font-weight: bolder;
 }
 
 .header-container .city-info {
@@ -153,7 +157,6 @@ a {
 .header-container .sign-in,
 .header-container .sub-header-b {
   font-size: 18px;
-  font-weight: bolder;
 }
 
 .header-container .sign-in {
@@ -167,7 +170,6 @@ a {
 
 .header-container .sub-header-b {
   background-color: white;
-  color: #f72210;
   padding-left: 12px;
   padding-right: 13px;
 }
@@ -301,7 +303,6 @@ div.container-fluid {
 
 .nav-item .nav-link {
   font-size: 19px;
-  font-weight: bolder;
   border-right: 1px solid #d9d9d9;
   color: black;
   padding: 0 !important;
@@ -336,7 +337,6 @@ div.container-fluid {
   height: 13px;
   margin: 0 -20px 0 0;
   transform: skew(40deg);
-  background: #f72210;
   overflow: hidden;
 }
 
@@ -437,17 +437,13 @@ main.container-fluid {
 .title-cont {
   color: rgba(3, 3, 3, 0.4);
   font-size: 16px;
-  font-weight: bolder;
 }
 
 .title-new {
   font-size: 24px;
-  font-weight: bolder;
 }
 
 .title-new:hover {
-  font-size: 24px;
-  font-weight: bolder;
   color: black;
   text-decoration: 1px underline #f72210;
 }
@@ -509,7 +505,6 @@ main.container-fluid {
 .ms-title {
   font-size: 17px;
   line-height: 21px;
-  font-weight: bolder;
 }
 
 .ms-title:hover {
@@ -539,7 +534,6 @@ main.container-fluid {
 .opinion-title {
   font-size: 17px;
   line-height: 21px;
-  font-weight: bolder;
 }
 
 .opinion-title:hover {
@@ -608,7 +602,6 @@ main.container-fluid {
 .debate-title {
   font-size: 17px;
   line-height: 21px;
-  font-weight: bolder;
 }
 
 .border-author {
@@ -629,7 +622,6 @@ main.container-fluid {
 
 .debate-author {
   margin-bottom: 0;
-  font-weight: bolder;
 }
 
 .debate-versus {
@@ -688,7 +680,6 @@ main.container-fluid {
 .ln-title {
   font-size: 17px;
   line-height: 21px;
-  font-weight: bolder;
 }
 
 .ln-title:hover {
@@ -710,7 +701,6 @@ main.container-fluid {
 .add-title {
   font-size: 24px;
   line-height: 24px;
-  font-weight: bolder;
 }
 
 .add-title:hover {
@@ -750,7 +740,6 @@ main.container-fluid {
   margin-bottom: 0;
   font-size: 19px;
   line-height: 19px;
-  font-weight: bolder;
   text-transform: uppercase;
 }
 
@@ -765,7 +754,6 @@ main.container-fluid {
   margin-bottom: 0;
   font-size: 18px;
   color: white;
-  font-weight: bolder;
 }
 
 .r-arrow-su {
@@ -776,12 +764,10 @@ main.container-fluid {
 
 .su-update {
   font-size: 15px;
-  font-weight: bolder;
   color: #333;
 }
 
 .su-update:hover {
-  color: #333;
   text-decoration: none;
 }
 
@@ -795,7 +781,6 @@ main.container-fluid {
 
 .section-text {
   font-size: 19px;
-  font-weight: bolder;
   margin-bottom: 0;
 }
 
@@ -805,7 +790,6 @@ main.container-fluid {
 
 .features-b {
   font-size: 18px;
-  font-weight: bolder;
   padding: 10px 10px 10px 12px;
   background-color: #f4f5f6;
 }
@@ -825,7 +809,6 @@ main.container-fluid {
   margin-top: 10px;
   margin-bottom: 10px;
   font-size: 16px;
-  font-weight: bolder;
 }
 
 .type-red-box,
@@ -837,18 +820,15 @@ main.container-fluid {
 
 .type-red-box {
   margin-right: 7px;
-  background-color: #f72210;
   color: white;
 }
 
 .type-white-box {
-  color: #f72210;
   background-color: white;
 }
 
 .itm-title {
   font-size: 20px;
-  font-weight: bolder;
 }
 
 .itm-title:hover {
@@ -950,7 +930,6 @@ main.container-fluid {
 .ep-title {
   font-size: 24px;
   line-height: 24px;
-  font-weight: bolder;
 }
 
 .ep-title:hover {
@@ -985,7 +964,6 @@ main.container-fluid {
 .fs-title {
   font-size: 22px;
   line-height: 22px;
-  font-weight: bolder;
 }
 
 .fs-title:hover {
@@ -998,8 +976,6 @@ main.container-fluid {
   padding-bottom: 11px;
   font-size: 22px;
   line-height: 22px;
-  color: #f72210;
-  font-weight: bolder;
   border-top: 1px solid #d9d9d9;
 }
 
@@ -1017,7 +993,6 @@ main.container-fluid {
 .fs-aside-title {
   font-size: 17px;
   line-height: 20px;
-  font-weight: bolder;
 }
 
 .fs-aside-title:hover {
@@ -1030,8 +1005,6 @@ main.container-fluid {
 .sub-red-title {
   font-size: 16px;
   line-height: 16px;
-  font-weight: bolder;
-  color: #f72210;
 }
 
 .sub-container {
@@ -1069,7 +1042,6 @@ main.container-fluid {
   margin-bottom: 15px;
   font-size: 24px;
   line-height: 24px;
-  font-weight: bolder;
 }
 
 .sub-sub-title {
@@ -1082,7 +1054,6 @@ main.container-fluid {
 .sub-b,
 .sub-b2 {
   padding: 10px 10px 10px 12px;
-  background-color: #f72210;
   color: white;
   max-width: 130px;
 }
@@ -1090,7 +1061,6 @@ main.container-fluid {
 .sub-b-text {
   font-size: 18px;
   line-height: 18px;
-  font-weight: bolder;
 }
 
 .sub-b-arrow {
@@ -1214,10 +1184,6 @@ main.container-fluid {
   line-height: 15px;
   color: #666;
   font-family: Arial, Helvetica, sans-serif;
-}
-
-.editions {
-  font-weight: bolder;
 }
 
 .item-border {
