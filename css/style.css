@@ -1,0 +1,1161 @@
+/* GENERAL */
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.helve {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.red-nw {
+  color: #f72210;
+}
+
+.red-bg-nw {
+  background-color: #f72210;
+}
+
+.red-uline:hover {
+  color: black;
+  text-decoration: 1px underline #f72210;
+}
+
+.red-text:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.darkgray {
+  color: #333;
+}
+
+.gray-hell {
+  color: #666;
+}
+
+.gray-border-t {
+  border-top: 1px solid #d9d9d9;
+}
+
+.gray-border-r {
+  border-right: 1px solid #d9d9d9;
+}
+
+.lightgray-bg {
+  background-color: #f4f5f6;
+}
+
+.lightgray-border-b {
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.white-a9-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
+}
+
+.container-fluid {
+  max-width: 1310px;
+}
+
+.n-box {
+  height: 28px;
+  width: 29px;
+  margin-right: 10px;
+}
+
+.main-img-cont {
+  position: relative;
+  width: 100%;
+}
+
+.white-tag,
+.sponsored-tag,
+.red-tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 3;
+  padding: 8px 15px 9px;
+  font-size: 17px;
+}
+
+.sponsored-tag {
+  color: #3581f4;
+}
+
+.red-tag {
+  padding: 0 7px;
+  font-size: 16px;
+}
+
+.number-tag {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 52px;
+  width: 70px;
+  z-index: 3;
+  background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 100% 100% no-repeat;
+  background-size: 100% 109%;
+  padding: 3px 0 0 11px;
+  font-size: 20px;
+  line-height: 52px;
+  text-align: center;
+}
+
+.ct-tag {
+  position: absolute;
+  left: 0;
+  bottom: 9px;
+  z-index: 3;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  background-color: #c2d4d7;
+  color: #272727;
+}
+
+.ct-tag:hover {
+  background-color: #272727;
+  color: #c2d4d7;
+}
+
+/* HEADER */
+
+.container-fluid .header-container {
+  padding: 20px 10px 15px;
+}
+
+.header-container .weather-icon {
+  align-self: flex-end;
+  height: 24px;
+  width: 24px;
+}
+
+.header-container .temperature,
+.header-container .city-info {
+  margin-bottom: 0;
+  padding-left: 8px;
+  font-size: 15px;
+}
+
+.header-container .city-info {
+  padding-right: 5px;
+}
+
+.header-container .r-arrow-weather {
+  height: 11px;
+  width: 6px;
+}
+
+.date {
+  margin-bottom: 0;
+  margin-left: 5px;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.header-container .logo {
+  height: 60px;
+  width: 396px;
+  filter: invert(100%);
+}
+
+.header-container .h-cont-3 {
+  padding-right: 0;
+}
+
+.header-container .sign-in,
+.header-container .sub-header-b {
+  font-size: 18px;
+}
+
+.header-container .sign-in {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header-container .sign-in:hover {
+  cursor: pointer;
+}
+
+.header-container .sub-header-b {
+  padding-left: 12px;
+  padding-right: 13px;
+}
+
+.sub-header-b .r-arrow-sub-b {
+  height: 14px;
+  padding-left: 16px;
+  filter: brightness(0) saturate(100%) invert(24%) sepia(99%) saturate(6036%) hue-rotate(357deg) brightness(101%) contrast(94%);
+}
+
+.fa-bars {
+  height: 26px;
+  width: 50px;
+  font-size: 27px;
+  padding-left: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  header.container-fluid {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+
+  .container-fluid .header-container {
+    padding: 15px;
+    align-items: center;
+  }
+
+  .h-cont-1 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .location {
+    padding-right: 0;
+  }
+
+  .header-container .weather-icon {
+    height: 24px;
+    width: 24px;
+  }
+
+  .h-cont-2 {
+    order: -1;
+    padding-left: 5px;
+    min-width: 169px !important;
+  }
+
+  .header-container .logo {
+    height: 20px;
+    width: 151px;
+    padding-left: 0;
+    padding-right: 10px;
+  }
+
+  .h-cont-3 {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .hidden-city-info {
+    display: none;
+  }
+
+  .location {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header-container .sign-in,
+  .header-container .sub-header-b {
+    font-size: 14px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+
+  .hidden-arrow {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .h-cont-1 {
+    max-width: 0.1%;
+  }
+
+  .header-container .col-3.h-cont-2 {
+    max-width: 40% !important;
+  }
+
+  .h-cont-3 {
+    width: 69%;
+  }
+
+  .hidden-weather {
+    display: none !important;
+  }
+}
+
+/* NAVBAR */
+
+div.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid .navbar {
+  padding: 0;
+}
+
+.navbar-nav {
+  max-width: 1145px;
+}
+
+.navbar-nav .nav-item {
+  flex-grow: 1;
+  text-align: center;
+  padding: 0;
+}
+
+.navbar-nav .nav-item:first-child {
+  padding-left: 0;
+}
+
+.nav-item .nav-link {
+  font-size: 19px;
+  color: black;
+  padding: 0 !important;
+}
+
+.nav-item:nth-child(11) .nav-link {
+  border: 0;
+}
+
+.navbar .nav-form {
+  position: relative;
+  width: 193px;
+  overflow: hidden;
+}
+
+.navbar .nav-input {
+  height: 54px;
+  width: 60px;
+  border: 0;
+}
+
+.nav-form .nav-search {
+  height: 20px;
+  width: 20px;
+}
+
+.red-tr {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  width: 100px;
+  height: 13px;
+  margin: 0 -20px 0 0;
+  transform: skew(40deg);
+  overflow: hidden;
+}
+
+/* MAIN */
+
+main.container-fluid {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 22px;
+}
+
+.container-fluid .main-section {
+  margin-bottom: 25px;
+}
+
+@media only screen and (max-width: 991px) {
+  main.container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 57px;
+  }
+}
+
+/* MAIN SECTION */
+
+.col0,
+.col1,
+.col2,
+.col3 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col0 {
+  width: 71%;
+}
+
+.col1 {
+  width: 41%;
+}
+
+.col2 {
+  width: 59%;
+}
+
+.col3 {
+  width: 29%;
+}
+
+@media only screen and (max-width: 991px) {
+  .main-section {
+    margin-top: 20px;
+  }
+
+  .col0 {
+    width: 100%;
+  }
+
+  .col1 {
+    width: 45%;
+  }
+
+  .col2 {
+    width: 55%;
+  }
+
+  .col3 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .col0 {
+    display: flex;
+  }
+
+  .col1 {
+    width: 100%;
+  }
+
+  .col2 {
+    order: -1;
+    width: 100%;
+  }
+
+  .col2,
+  .col1 {
+    margin-bottom: 45px;
+  }
+}
+
+/* FEATURED STORIES */
+
+.img-new {
+  margin-bottom: 9px;
+}
+
+.title-cont {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+}
+
+.title-new {
+  font-size: 24px;
+}
+
+.desc-new {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* Culture & Travel */
+
+.ct-img-cont {
+  position: relative;
+}
+
+.ct-title {
+  font-size: 20px;
+  line-height: 22px;
+  font-family: 'Lora', Arial, Helvetica, sans-serif;
+}
+
+.ct-title:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.ct-desc {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(39, 39, 39, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+  .ct-cont {
+    margin-bottom: 25px;
+  }
+}
+
+/* MORE STORIES */
+
+.border-t {
+  border-top: 1px solid #ddd;
+  padding-top: 14px;
+  padding-right: 14px;
+}
+
+.ms-img {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.ms-text {
+  padding-left: 0;
+}
+
+.ms-title {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.ms-desc {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .ms-cont {
+    margin-bottom: 25px;
+  }
+}
+
+/* OPINION */
+
+.opinion {
+  margin-bottom: 15px;
+}
+
+.opinion-title {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.opinion-cont {
+  margin-bottom: 8px;
+}
+
+.author {
+  font-size: 14px;
+  line-height: 21px;
+  color: #212529;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 991px) {
+  .portrait {
+    max-width: 70px;
+  }
+
+  .opinion-info {
+    flex-grow: 1;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .opinion {
+    margin-bottom: 45px;
+  }
+}
+
+/* THE DEBATE */
+
+.debate {
+  margin-bottom: 25px;
+}
+
+.debate-border-t1,
+.debate-border-t2 {
+  margin-left: 0;
+}
+
+.debate-border-t1 {
+  border-top: 4px solid #f72210;
+}
+
+.debate-border-t2 {
+  border-top: 4px solid #1c87fb;
+}
+
+.debate-pic {
+  padding-left: 0;
+}
+
+.title-box {
+  padding-top: 14px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.debate-title {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.author-info {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+.gray-author {
+  color: #555;
+  font-weight: lighter;
+}
+
+.debate-author {
+  margin-bottom: 0;
+}
+
+.debate-versus {
+  height: 40px;
+  width: 40px;
+  margin: 14px auto 18px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 991px) {
+  .portrait2 {
+    max-width: 100px;
+  }
+
+  .opinion-info {
+    flex-grow: 1;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .debate {
+    margin-bottom: 45px;
+  }
+}
+
+/* LATEST NEWS */
+
+.ln {
+  margin-bottom: 25px;
+}
+
+.ln .ln-new {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.ln .ln-new:nth-child(2) {
+  padding-top: 0;
+}
+
+.ln-img {
+  min-width: 95px;
+  margin-right: 17px;
+}
+
+.ln-title {
+  font-size: 17px;
+  line-height: 21px;
+}
+
+/* ADD ARTICLE */
+
+.add-article {
+  margin-bottom: 25px;
+}
+
+.add-box {
+  padding: 20px;
+  border: 1px solid #e6e6e6;
+}
+
+.add-title {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.add-desc {
+  margin-bottom: 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .add-article {
+    max-width: 330px;
+    margin: 10px auto;
+  }
+}
+
+/* SIGN UP */
+
+.sign-up-container {
+  max-width: 300px;
+  margin: 0 auto 30px;
+  padding: 20px;
+}
+
+.sign-up-container .su-title-cont {
+  margin-bottom: 15px;
+}
+
+.sign-up-title {
+  margin-bottom: 0;
+  font-size: 19px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.su-b {
+  max-width: 113px;
+  padding: 10px 10px 10px 12px;
+  margin-bottom: 10px;
+  background-color: #666;
+}
+
+.su-b-text {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.r-arrow-su {
+  height: 19px;
+  width: 18px;
+  margin-left: 10px;
+}
+
+.su-update {
+  font-size: 15px;
+}
+
+.su-update:hover {
+  text-decoration: none;
+}
+
+/* IN THE MAGAZINE */
+
+.section-bar {
+  padding-bottom: 8px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 15px;
+}
+
+.section-text {
+  font-size: 19px;
+  margin-bottom: 0;
+}
+
+.itm > .row {
+  margin-bottom: 25px;
+}
+
+.features-b {
+  font-size: 18px;
+  padding: 10px 10px 10px 12px;
+}
+
+.features-b:hover {
+  background-color: #dbdcdd;
+}
+
+.features-b-img {
+  height: 16px;
+  width: 10px;
+  margin-left: 10px;
+  filter: invert(100%);
+}
+
+.new-classification {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.type-red-box,
+.type-white-box {
+  padding-top: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.type-red-box {
+  margin-right: 7px;
+}
+
+.itm-title {
+  font-size: 20px;
+}
+
+.mt {
+  margin-top: 10px;
+}
+
+.mag-h {
+  height: 34ch;
+}
+
+.magazine-img1,
+.magazine-img2,
+.magazine-img3,
+.magazine-img4,
+.magazine-img5,
+.magazine-img6,
+.magazine-focus {
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.magazine-img1 {
+  background-image: url("https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1");
+}
+
+.magazine-img2 {
+  background-image: url("https://d.newsweek.com/en/full/1571763/crazy-market-01.jpg?w=466&h=311&l=52&t=47&q=90&f=ff7ff0353122be47b92e55b8dcde85ca");
+}
+
+.magazine-img3 {
+  background-image: url("https://d.newsweek.com/en/full/1572578/per-hollywood-banner.jpg?w=466&h=311&l=50&t=47&q=90&f=2d0e511382ca9561a78fc95ca14e044e");
+}
+
+.magazine-img4 {
+  background-image: url("https://d.newsweek.com/en/full/1573187/hor-btn-pandemics-01.jpg?w=466&h=311&q=90&f=6b3df08452d42adbcafe3238dd679c30");
+}
+
+.magazine-img5 {
+  background-image: url("https://d.newsweek.com/en/full/1572525/cul-uncharted-stadiums-banner.jpg?w=466&h=311&q=90&f=a57d51bbafc7d141842f113cedb6dea1");
+}
+
+.magazine-img6 {
+  background-image: url("https://d.newsweek.com/en/full/1572537/cul-ps-elainewelteroth.jpg?w=466&h=311&q=90&f=d0be6c4a2061644d054dda643a3ce72b");
+}
+
+.magazine-focus {
+  position: relative;
+  background-image: url("https://d.newsweek.com/en/full/1572546/aftermath.jpg?w=480&h=320&q=90&f=33d6a4844efac639705674e960d90ba9");
+  background-size: 165% 100%;
+  height: 319px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .mag-h {
+    height: 31ch;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .mag-h {
+    height: 25ch;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mag-h {
+    height: 50ch;
+  }
+
+  .magazine-img1,
+  .magazine-img2,
+  .magazine-img3,
+  .magazine-img4,
+  .magazine-img5,
+  .magazine-img6 {
+    background-size: 100% 100%;
+  }
+
+  .magazine-focus {
+    background-size: 100% 100%;
+    height: 319px;
+  }
+}
+
+/* EDITOR'S PICKS */
+
+.ep-article {
+  margin-bottom: 20px;
+}
+
+.ep-title-cont {
+  margin-top: 10px;
+  margin-bottom: 13px;
+}
+
+.ep-title {
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.ep-desc {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 0;
+}
+
+/* FEATURED SLIDESHOWS */
+
+.fs-article {
+  padding-bottom: 40px;
+}
+
+.fs-title-cont {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.fs-aside-img {
+  max-width: 95px;
+  padding-right: 15px;
+}
+
+.fs-title {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.category-bar {
+  padding-top: 25px;
+  padding-bottom: 11px;
+  font-size: 22px;
+  line-height: 22px;
+}
+
+.fs-aside {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.fs-aside:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.fs-aside-title {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+/* SUBSCRIBE */
+
+.sub-red-title {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.sub-container {
+  padding: 30px 30px 44px 30px;
+  margin-left: 0;
+  margin-right: 15px;
+}
+
+.sub-magazine {
+  padding-left: 0;
+}
+
+.sub-magazine-cont {
+  position: relative;
+  width: 171px;
+}
+
+.sub-mag-abs {
+  position: absolute;
+  top: 10px;
+  left: 80px;
+  z-index: 5;
+}
+
+.sub-mag-img {
+  background: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5") center top no-repeat;
+  background-size: 200% 100%;
+  max-width: 180px;
+  padding: 0;
+}
+
+.sub-title {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.sub-sub-title {
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: lighter;
+}
+
+.sub-b,
+.sub-b2 {
+  padding: 10px 10px 10px 12px;
+  max-width: 130px;
+}
+
+.sub-b-text {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.sub-b-arrow {
+  height: 16px;
+  width: 10px;
+  margin-left: 10px;
+}
+
+.sub-b2 {
+  max-width: 108px;
+}
+
+.img-h {
+  height: 300px;
+}
+
+@media only screen and (max-width: 991px) {
+  .img-h {
+    height: 189px;
+  }
+
+  .sub-mag-img {
+    max-width: 190px;
+  }
+}
+
+@media only screen and (max-width: 836px) {
+  .img-h {
+    height: 210px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .sub-title,
+  .sub-sub-title {
+    text-align: center;
+  }
+
+  .sub-magazine {
+    justify-content: center;
+  }
+
+  .sub-b,
+  .sub-b2 {
+    margin: 0 auto;
+  }
+
+  .img-h {
+    height: 160px;
+  }
+
+  .sub-mag-img {
+    background-position: center center;
+    background-size: 100% 300%;
+    max-width: 100%;
+  }
+}
+
+/* FOOTER */
+
+.footer-container {
+  margin-top: 25px;
+  padding-bottom: 30px;
+}
+
+.footer-image {
+  height: 35px;
+  width: 235px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  filter: brightness(0) saturate(100%) invert(24%) sepia(99%) saturate(6036%) hue-rotate(357deg) brightness(101%) contrast(94%);
+}
+
+.footer-tm {
+  font-size: 12px;
+  line-height: 12px;
+  margin-bottom: 12px;
+}
+
+.footer-social {
+  padding-left: 13px;
+  font-size: 24px;
+  margin-bottom: 12px;
+}
+
+.fa-facebook-square:hover {
+  color: #3b5998;
+}
+
+.fa-twitter:hover {
+  color: #1da1f2;
+}
+
+.fa-instagram:hover {
+  color: #405de6;
+}
+
+.fa-tumblr:hover {
+  color: #35465c;
+}
+
+.fa-linkedin-in:hover {
+  color: #0077b5;
+}
+
+.list-inline {
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+.list-inline-item {
+  padding-right: 10px;
+  font-size: 14px;
+  line-height: 15px;
+}
+
+.item-border:last-child {
+  border-right: 0;
+}
+
+.item-border:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 767px) {
+  .cop-sc-cont {
+    flex-direction: column;
+  }
+
+  .copyright-cont {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .item-border {
+    border-right: 0;
+  }
+}
