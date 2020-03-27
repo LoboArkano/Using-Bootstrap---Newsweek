@@ -1,17 +1,18 @@
 # Using-Bootstrap-Newsweek
-The objective of our project was to recreate a responsive layout with custom media queries.
+The objective of this project was to recreate a responsive layout with Bootstrap 4.
 
 ![image](https://user-images.githubusercontent.com/33432289/77593185-67efdf00-6eb9-11ea-9989-9174eef68145.png)
 
 
 ## Live Demo
 
-https://raw.githack.com/LoboArkano/Using-Bootstrap-Newsweek/home-page/index.html
+https://raw.githack.com/LoboArkano/Using-Bootstrap---Newsweek/master/index.html
 
 ## Built With
 
 - HTML,
 - CSS,
+- Bootstrap 4
 
 ## Getting Started
 
