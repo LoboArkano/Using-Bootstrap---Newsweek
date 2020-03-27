@@ -7,18 +7,20 @@
 }
 
 body {
-  background-color: #f4f5f6;
   font-family: 'Roboto Condensed', sans-serif !important;
-}
-
-nav,
-main {
-  background-color: white;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+.arial {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.helve {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .bolder {
@@ -31,6 +33,52 @@ a {
 
 .red-bg-nw {
   background-color: #f72210;
+}
+
+.red-uline:hover {
+  color: black;
+  text-decoration: 1px underline #f72210;
+}
+
+.red-text:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.darkgray {
+  color: #333;
+}
+
+.gray-hell {
+  color: #666;
+}
+
+.gray-border-t {
+  border-top: 1px solid #d9d9d9;
+}
+
+.gray-border-r {
+  border-right: 1px solid #d9d9d9;
+}
+
+.lightgray-bg {
+  background-color: #f4f5f6;
+}
+
+.lightgray-border-b {
+  border-bottom: 1px solid #f4f5f6;
+}
+
+.white-a9-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.white {
+  color: white;
+}
+
+.white-bg {
+  background-color: white;
 }
 
 .container-fluid {
@@ -59,35 +107,28 @@ a {
   font-size: 17px;
 }
 
-.white-tag {
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
 .sponsored-tag {
   color: #3581f4;
-  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .red-tag {
   padding: 0 7px;
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.9);
 }
 
 .number-tag {
   position: absolute;
-  left: -1;
+  left: 0;
   bottom: 0;
   height: 52px;
   width: 70px;
   z-index: 3;
   background: url("https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png") 100% 100% no-repeat;
-  background-size: 99% 109%;
+  background-size: 100% 109%;
   padding: 3px 0 0 11px;
   font-size: 20px;
   line-height: 52px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .ct-tag {
@@ -100,7 +141,6 @@ a {
   font-size: 12px;
   background-color: #c2d4d7;
   color: #272727;
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 .ct-tag:hover {
@@ -111,7 +151,6 @@ a {
 /* HEADER */
 
 .container-fluid .header-container {
-  color: white;
   padding: 20px 10px 15px;
 }
 
@@ -169,7 +208,6 @@ a {
 }
 
 .header-container .sub-header-b {
-  background-color: white;
   padding-left: 12px;
   padding-right: 13px;
 }
@@ -284,7 +322,6 @@ div.container-fluid {
 
 .container-fluid .navbar {
   padding: 0;
-  border-bottom: 1px solid #f4f5f6;
 }
 
 .navbar-nav {
@@ -303,7 +340,6 @@ div.container-fluid {
 
 .nav-item .nav-link {
   font-size: 19px;
-  border-right: 1px solid #d9d9d9;
   color: black;
   padding: 0 !important;
 }
@@ -443,16 +479,9 @@ main.container-fluid {
   font-size: 24px;
 }
 
-.title-new:hover {
-  color: black;
-  text-decoration: 1px underline #f72210;
-}
-
 .desc-new {
   font-size: 15px;
   line-height: 20px;
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Culture & Travel */
@@ -476,7 +505,6 @@ main.container-fluid {
   font-size: 15px;
   line-height: 20px;
   color: rgba(39, 39, 39, 0.5);
-  font-family: Helvetica, Arial, sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -507,16 +535,9 @@ main.container-fluid {
   line-height: 21px;
 }
 
-.ms-title:hover {
-  color: black;
-  text-decoration: 1px underline #f72210;
-}
-
 .ms-desc {
   font-size: 15px;
   line-height: 20px;
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -536,13 +557,7 @@ main.container-fluid {
   line-height: 21px;
 }
 
-.opinion-title:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
-.opinion-border {
-  border-bottom: 1px solid #f4f5f6;
+.opinion-cont {
   margin-bottom: 8px;
 }
 
@@ -604,12 +619,6 @@ main.container-fluid {
   line-height: 21px;
 }
 
-.border-author {
-  height: 4px;
-  border-top: 1px solid #d9d9d9;
-  border-bottom: 1px solid #d9d9d9;
-}
-
 .author-info {
   font-size: 17px;
   line-height: 21px;
@@ -629,7 +638,6 @@ main.container-fluid {
   width: 40px;
   margin: 14px auto 18px;
   background-color: black;
-  color: white;
   border-radius: 50%;
   font-size: 14px;
   line-height: 40px;
@@ -668,10 +676,6 @@ main.container-fluid {
   padding-top: 0;
 }
 
-.ln-border {
-  border-bottom: 1px solid #f4f5f6;
-}
-
 .ln-img {
   min-width: 95px;
   margin-right: 17px;
@@ -680,11 +684,6 @@ main.container-fluid {
 .ln-title {
   font-size: 17px;
   line-height: 21px;
-}
-
-.ln-title:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 /* ADD ARTICLE */
@@ -703,17 +702,10 @@ main.container-fluid {
   line-height: 24px;
 }
 
-.add-title:hover {
-  color: black;
-  text-decoration: 1px underline #f72210;
-}
-
 .add-desc {
   margin-bottom: 0;
   font-size: 15px;
   line-height: 20px;
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -729,7 +721,6 @@ main.container-fluid {
   max-width: 300px;
   margin: 0 auto 30px;
   padding: 20px;
-  background-color: #f4f5f6;
 }
 
 .sign-up-container .su-title-cont {
@@ -753,7 +744,6 @@ main.container-fluid {
 .su-b-text {
   margin-bottom: 0;
   font-size: 18px;
-  color: white;
 }
 
 .r-arrow-su {
@@ -764,7 +754,6 @@ main.container-fluid {
 
 .su-update {
   font-size: 15px;
-  color: #333;
 }
 
 .su-update:hover {
@@ -791,7 +780,6 @@ main.container-fluid {
 .features-b {
   font-size: 18px;
   padding: 10px 10px 10px 12px;
-  background-color: #f4f5f6;
 }
 
 .features-b:hover {
@@ -820,20 +808,10 @@ main.container-fluid {
 
 .type-red-box {
   margin-right: 7px;
-  color: white;
-}
-
-.type-white-box {
-  background-color: white;
 }
 
 .itm-title {
   font-size: 20px;
-}
-
-.itm-title:hover {
-  color: black;
-  text-decoration: 1px underline #f72210;
 }
 
 .mt {
@@ -849,37 +827,39 @@ main.container-fluid {
 .magazine-img3,
 .magazine-img4,
 .magazine-img5,
-.magazine-img6 {
-  background-size: 150% 100%;
+.magazine-img6,
+.magazine-focus {
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .magazine-img1 {
-  background: url("https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1567892/bernie-sanders-medicare-all.jpg?w=466&h=311&q=90&f=1848d976cd4a3b658a84d19e87e3c7f1");
 }
 
 .magazine-img2 {
-  background: url("https://d.newsweek.com/en/full/1571763/crazy-market-01.jpg?w=466&h=311&l=52&t=47&q=90&f=ff7ff0353122be47b92e55b8dcde85ca") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1571763/crazy-market-01.jpg?w=466&h=311&l=52&t=47&q=90&f=ff7ff0353122be47b92e55b8dcde85ca");
 }
 
 .magazine-img3 {
-  background: url("https://d.newsweek.com/en/full/1572578/per-hollywood-banner.jpg?w=466&h=311&l=50&t=47&q=90&f=2d0e511382ca9561a78fc95ca14e044e") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1572578/per-hollywood-banner.jpg?w=466&h=311&l=50&t=47&q=90&f=2d0e511382ca9561a78fc95ca14e044e");
 }
 
 .magazine-img4 {
-  background: url("https://d.newsweek.com/en/full/1573187/hor-btn-pandemics-01.jpg?w=466&h=311&q=90&f=6b3df08452d42adbcafe3238dd679c30") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1573187/hor-btn-pandemics-01.jpg?w=466&h=311&q=90&f=6b3df08452d42adbcafe3238dd679c30");
 }
 
 .magazine-img5 {
-  background: url("https://d.newsweek.com/en/full/1572525/cul-uncharted-stadiums-banner.jpg?w=466&h=311&q=90&f=a57d51bbafc7d141842f113cedb6dea1") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1572525/cul-uncharted-stadiums-banner.jpg?w=466&h=311&q=90&f=a57d51bbafc7d141842f113cedb6dea1");
 }
 
 .magazine-img6 {
-  background: url("https://d.newsweek.com/en/full/1572537/cul-ps-elainewelteroth.jpg?w=466&h=311&q=90&f=d0be6c4a2061644d054dda643a3ce72b") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1572537/cul-ps-elainewelteroth.jpg?w=466&h=311&q=90&f=d0be6c4a2061644d054dda643a3ce72b");
 }
 
 .magazine-focus {
   position: relative;
-  background: url("https://d.newsweek.com/en/full/1572546/aftermath.jpg?w=480&h=320&q=90&f=33d6a4844efac639705674e960d90ba9") center center no-repeat;
+  background-image: url("https://d.newsweek.com/en/full/1572546/aftermath.jpg?w=480&h=320&q=90&f=33d6a4844efac639705674e960d90ba9");
   background-size: 165% 100%;
   height: 319px;
 }
@@ -932,16 +912,9 @@ main.container-fluid {
   line-height: 24px;
 }
 
-.ep-title:hover {
-  color: black;
-  text-decoration: 1px underline #f72210;
-}
-
 .ep-desc {
   font-size: 15px;
   line-height: 20px;
-  color: #333;
-  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 0;
 }
 
@@ -966,17 +939,11 @@ main.container-fluid {
   line-height: 22px;
 }
 
-.fs-title:hover {
-  color: black;
-  text-decoration: 1px underline #f72210;
-}
-
 .category-bar {
   padding-top: 25px;
   padding-bottom: 11px;
   font-size: 22px;
   line-height: 22px;
-  border-top: 1px solid #d9d9d9;
 }
 
 .fs-aside {
@@ -995,11 +962,6 @@ main.container-fluid {
   line-height: 20px;
 }
 
-.fs-aside-title:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
 /* SUBSCRIBE */
 
 .sub-red-title {
@@ -1011,7 +973,6 @@ main.container-fluid {
   padding: 30px 30px 44px 30px;
   margin-left: 0;
   margin-right: 15px;
-  background-color: #f4f5f6;
 }
 
 .sub-magazine {
@@ -1054,7 +1015,6 @@ main.container-fluid {
 .sub-b,
 .sub-b2 {
   padding: 10px 10px 10px 12px;
-  color: white;
   max-width: 130px;
 }
 
@@ -1137,8 +1097,6 @@ main.container-fluid {
 .footer-tm {
   font-size: 12px;
   line-height: 12px;
-  color: #666;
-  font-family: Arial, Helvetica, sans-serif;
   margin-bottom: 12px;
 }
 
@@ -1146,7 +1104,6 @@ main.container-fluid {
   padding-left: 13px;
   font-size: 24px;
   margin-bottom: 12px;
-  color: #666;
 }
 
 .fa-facebook-square:hover {
@@ -1169,10 +1126,6 @@ main.container-fluid {
   color: #0077b5;
 }
 
-.page-info {
-  border-top: 1px solid #d9d9d9;
-}
-
 .list-inline {
   margin-top: 6px;
   margin-bottom: 8px;
@@ -1182,12 +1135,6 @@ main.container-fluid {
   padding-right: 10px;
   font-size: 14px;
   line-height: 15px;
-  color: #666;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.item-border {
-  border-right: 1px solid #d9d9d9;
 }
 
 .item-border:last-child {
